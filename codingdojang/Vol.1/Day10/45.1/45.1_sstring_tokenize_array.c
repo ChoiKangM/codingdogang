@@ -14,7 +14,7 @@ int main()
 	while(charPtr != NULL)							//자른 문자열이 나오지 않을 때까지 반복
 	{
 		printf("%s\n",charPtr);						//자른 문자열 출력
-		charPtr = strtok(NULL, " ");				//다음 문자열을 잘라서 포인터를 반환
+		charPtr = strtok(NULL, " ");				//" "자리에 NULL문자 채운 후 다음 문자열을 잘라서 포인터를 반환
 	}
 	
 	return 0;

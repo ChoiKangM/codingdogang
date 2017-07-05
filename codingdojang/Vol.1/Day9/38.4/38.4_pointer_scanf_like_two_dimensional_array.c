@@ -3,7 +3,7 @@
 #include <stdio.h>
 int main()
 {
-	int row, col;
+	int row, col;					//row - 가로, col - 세로
 	
 	printf("input row and col: ");
 	scanf("%d %d",&row, &col);
